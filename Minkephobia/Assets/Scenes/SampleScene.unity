@@ -122,7 +122,7 @@ NavMeshSettings:
     preserveTilesOutsideBounds: 0
     debug:
       m_Flags: 0
-  m_NavMeshData: {fileID: 0}
+  m_NavMeshData: {fileID: 23800000, guid: 24923276c033b0c44bd5581fdc487cd2, type: 2}
 --- !u!1001 &4013289
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -105307,6 +105307,8 @@ GameObject:
   - component: {fileID: 919132149152194020}
   - component: {fileID: 919132149152194019}
   - component: {fileID: 919132149152194021}
+  - component: {fileID: 919132149152194023}
+  - component: {fileID: 919132149152194022}
   m_Layer: 0
   m_Name: Lvl1 guy
   m_TagString: Untagged
@@ -105387,7 +105389,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e5ec5508b5c419248b2c30c969320f2e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DetectionRange: 2.64
+  DetectionRange: 5.55
   MonsterSpeedWander: 6
   MonsterSpeedChase: 8.5
   agent: {fileID: 919132149152194012}
@@ -105603,6 +105605,45 @@ MonoBehaviour:
   teleportTarget: {fileID: 135328077}
   oneTimeUse: 0
   xrOrigin: {fileID: 6882695105757683204}
+--- !u!114 &919132149152194022
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 919132149152194011}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5589a6ccba09f37469365dd6d90bd36d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerObject: {fileID: 6882695105600504297}
+  teleportDestination: {fileID: 135328076}
+  teleportDelay: 0.5
+  objectsToDisable:
+  - {fileID: 683547887}
+  - {fileID: 1135198685}
+  temporaryEnableObject: {fileID: 1321919396}
+  enableDuration: 1
+--- !u!114 &919132149152194023
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 919132149152194011}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e647bad5a65e2ab47bd850bba66a7d8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerObject: {fileID: 6882695105600504297}
+  teleportDestination: {fileID: 135328076}
+  teleportDelay: 0.5
+  objectsToDisable:
+  - {fileID: 1135198685}
+  - {fileID: 683547887}
+  reenableAfter: 1
 --- !u!4 &1142842402240693260
 Transform:
   m_ObjectHideFlags: 0
