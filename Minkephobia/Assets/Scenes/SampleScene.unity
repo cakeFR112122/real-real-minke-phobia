@@ -19786,7 +19786,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &431539572
 Transform:
   m_ObjectHideFlags: 0
@@ -59691,19 +59691,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '1 - no harassment
-
-    2 - no homophobia, etc.
-
-    3 - no modding our
-    game
-
-    4 - no stealing our assets
-
-    5 - no being rude
-
-    6 - no leaking
-    anything '
+  m_text: dijhdsudhsadhsadgbsahdsagjdsgjadgahsdgasFUCK YOUDBADHJABDHJSDBSADBHSABDHSDVBAJDSVBSAJDVHSAVGD
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5c1af591e6d76f24b89bc92eb0e762bd, type: 2}
   m_sharedMaterial: {fileID: 6529176277120742279, guid: 5c1af591e6d76f24b89bc92eb0e762bd, type: 2}
@@ -70577,7 +70565,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1321919397
 Transform:
   m_ObjectHideFlags: 0
@@ -72055,6 +72043,7 @@ Transform:
   - {fileID: 1111054149}
   - {fileID: 250749558}
   - {fileID: 1655570944}
+  - {fileID: 1801549472}
   - {fileID: 2138145481}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -93692,6 +93681,52 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4041120851213007358, guid: 9a96d92a6323f334898658a3f67f13fc, type: 3}
   m_PrefabInstance: {fileID: 1459361501}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1801549471
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1801549472}
+  - component: {fileID: 1801549473}
+  m_Layer: 0
+  m_Name: udp (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1801549472
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1801549471}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1328609476}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1801549473
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1801549471}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6fc71e9125de2e24d985055f068d6991, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textDisplay: {fileID: 1075371280}
+  pastebinRawUrl: https://pastebin.com/raw/PV2QkBzW
 --- !u!1 &1802054855
 GameObject:
   m_ObjectHideFlags: 0
