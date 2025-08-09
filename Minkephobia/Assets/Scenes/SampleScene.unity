@@ -7964,13 +7964,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 199776776}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.10307789, y: 0.06460829, z: 0.019183086, w: -0.9923875}
-  m_LocalPosition: {x: 0.0025799903, y: 0.008299968, z: -0.006329993}
+  m_LocalRotation: {x: 0.10616764, y: 0.88806814, z: 0.12148714, w: -0.43047}
+  m_LocalPosition: {x: 0.002579984, y: 0.008299966, z: -0.0063300002}
   m_LocalScale: {x: 0.002649961, y: 0.0026499622, z: 0.0026499615}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1134727409}
-  m_LocalEulerAnglesHint: {x: -11.95, y: -7.298, z: -1.45}
+  m_LocalEulerAnglesHint: {x: -17.889, y: -129.076, z: 5.062}
 --- !u!135 &199776778
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -8012,7 +8012,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 8728503edb9c69847a5f742912f9149b, type: 2}
+  - {fileID: 2100000, guid: ab194e604c7f1074d8364b08831b8297, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -15867,13 +15867,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 388336850}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.061421856, y: 0.14164656, z: 0.022842007, w: -0.9877459}
-  m_LocalPosition: {x: -0.0028300225, y: 0.008299976, z: -0.0063200034}
+  m_LocalRotation: {x: 0.76127, y: 0.13497059, z: -0.520297, w: -0.3626873}
+  m_LocalPosition: {x: -0.0028300253, y: 0.008299968, z: -0.0063200016}
   m_LocalScale: {x: 0.002649961, y: 0.0026499622, z: 0.0026499617}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1134727409}
-  m_LocalEulerAnglesHint: {x: -7.343, y: -16.219, z: -1.602}
+  m_LocalEulerAnglesHint: {x: -24.315, y: -102.388, z: 140.234}
 --- !u!135 &388336852
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -15915,7 +15915,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 8728503edb9c69847a5f742912f9149b, type: 2}
+  - {fileID: 2100000, guid: ab194e604c7f1074d8364b08831b8297, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -19786,7 +19786,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &431539572
 Transform:
   m_ObjectHideFlags: 0
@@ -19796,8 +19796,8 @@ Transform:
   m_GameObject: {fileID: 431539571}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0.7423338, z: -0, w: 0.6700303}
-  m_LocalPosition: {x: 0.93165, y: 0.38329682, z: 0.50456}
-  m_LocalScale: {x: 0.259545, y: 0.35007417, z: 0.35007417}
+  m_LocalPosition: {x: 0.93195, y: 0.38329682, z: 0.50268}
+  m_LocalScale: {x: 0.2096319, y: 0.35007417, z: 0.35007417}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 824964115}
@@ -69445,7 +69445,7 @@ Transform:
   m_GameObject: {fileID: 1300028606}
   serializedVersion: 2
   m_LocalRotation: {x: -0.26558623, y: 0.00000026822084, z: 0.027263338, w: 0.9637016}
-  m_LocalPosition: {x: -0.07, y: -0.85, z: -0.67}
+  m_LocalPosition: {x: -1.07, y: -7.32, z: -6.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -70577,7 +70577,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1321919397
 Transform:
   m_ObjectHideFlags: 0
@@ -107145,7 +107145,6 @@ GameObject:
   - component: {fileID: 919132149152194013}
   - component: {fileID: 919132149152194012}
   - component: {fileID: 919132149152194017}
-  - component: {fileID: 919132149152194016}
   - component: {fileID: 919132149152194020}
   - component: {fileID: 919132149152194019}
   - component: {fileID: 919132149152194022}
@@ -107245,102 +107244,6 @@ MonoBehaviour:
   - {fileID: 775160412}
   - {fileID: 1937528573}
   tagString: Player
---- !u!82 &919132149152194016
-AudioSource:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 919132149152194011}
-  m_Enabled: 1
-  serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: e47d08f3c5fcb1647aab02e46a8f7afd, type: 3}
-  m_PlayOnAwake: 0
-  m_Volume: 0.924
-  m_Pitch: 1
-  Loop: 0
-  Mute: 0
-  Spatialize: 0
-  SpatializePostEffects: 0
-  Priority: 128
-  DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 3.7393425
-  Pan2D: 0
-  rolloffMode: 0
-  BypassEffects: 0
-  BypassListenerEffects: 0
-  BypassReverbZones: 0
-  rolloffCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 1
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  panLevelCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  spreadCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  reverbZoneMixCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
 --- !u!65 &919132149152194017
 BoxCollider:
   m_ObjectHideFlags: 0
