@@ -23800,7 +23800,7 @@ GameObject:
   - component: {fileID: 465611245}
   - component: {fileID: 465611250}
   m_Layer: 0
-  m_Name: Frame of tv
+  m_Name: Poster
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -23886,7 +23886,7 @@ Transform:
   m_GameObject: {fileID: 465611244}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: 0.9999997, w: -0.0007731394}
-  m_LocalPosition: {x: 10.52, y: 3.81, z: 25.466}
+  m_LocalPosition: {x: 9.54, y: 4.33, z: 25.466}
   m_LocalScale: {x: 2.9642632, y: 1.5667253, z: 1.0884}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -31785,7 +31785,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 83974f36b49775943b276ed597bf70c7, type: 2}
+  - {fileID: 2100000, guid: 8f30f14f51b41b94aba8c83ae53363d4, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -91727,7 +91727,7 @@ GameObject:
   - component: {fileID: 1673096335}
   - component: {fileID: 1673096334}
   m_Layer: 0
-  m_Name: Frame of tv (1)
+  m_Name: EE
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
