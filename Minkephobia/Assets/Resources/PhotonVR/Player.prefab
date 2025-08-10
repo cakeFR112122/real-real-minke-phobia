@@ -2138,6 +2138,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: mONSTER BETTER REMAKE 1
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 6a7a94cdbd23e5d419413781cf05140b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4331940336047323798, guid: 6a7a94cdbd23e5d419413781cf05140b, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.004999889
