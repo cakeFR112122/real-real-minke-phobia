@@ -5,6 +5,13 @@ TagManager:
   serializedVersion: 2
   tags:
   - HandTag
+  - Dirt
+  - Carpet
+  - Wood
+  - Stone
+  - Glass
+  - Metal
+  - Tree
   layers:
   - Default
   - TransparentFX
