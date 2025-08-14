@@ -12,6 +12,7 @@ TagManager:
   - Glass
   - Metal
   - Tree
+  - Water
   layers:
   - Default
   - TransparentFX
