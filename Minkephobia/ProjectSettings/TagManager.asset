@@ -13,6 +13,7 @@ TagManager:
   - Metal
   - Tree
   - Water
+  - Snow
   layers:
   - Default
   - TransparentFX

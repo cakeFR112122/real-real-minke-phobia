@@ -23,6 +23,7 @@ public class HitSoundsv2 : MonoBehaviour
             { "Dirt", dirt },
             { "Carpet", carpet },
             { "Wood", wood }
+          
         };
     }
 
