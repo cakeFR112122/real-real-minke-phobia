@@ -14,6 +14,7 @@ TagManager:
   - Tree
   - Water
   - Snow
+  - GlassBridge
   layers:
   - Default
   - TransparentFX
@@ -26,7 +27,7 @@ TagManager:
   - 
   - 
   - NonColidable
-  - 
+  - PlayerLayer
   - 
   - 
   - 
