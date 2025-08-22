@@ -991,6 +991,7 @@ GameObject:
   - component: {fileID: 1767454221338096820}
   - component: {fileID: 387596397670907264}
   - component: {fileID: 2112477298537638755}
+  - component: {fileID: 2829543950869794403}
   m_Layer: 0
   m_Name: modmask
   m_TagString: Untagged
@@ -1064,6 +1065,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &2829543950869794403
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1620486308336058341}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83f4b833f7ef2b14282df542adb1d574, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  layerName: Cull
+  layerIndex: 14
 --- !u!1 &1666043707668009428
 GameObject:
   m_ObjectHideFlags: 0
