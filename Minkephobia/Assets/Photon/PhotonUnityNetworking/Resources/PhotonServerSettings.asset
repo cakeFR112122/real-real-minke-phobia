@@ -47,6 +47,8 @@ MonoBehaviour:
   - RebuildGlass
   - SpawnGlass
   - UpdateGlass
+  - PlayCollisionSound
+  - PlaySound
   DisableAutoOpenWizard: 1
   ShowSettings: 0
   DevRegionSetOnce: 0

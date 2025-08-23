@@ -1,0 +1,16 @@
+{
+    "name": "LIV.NativeAudioBridge",
+    "rootNamespace": "",
+    "references": [
+        "GUID:870302e328006d04f8af93395b6b758c"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
