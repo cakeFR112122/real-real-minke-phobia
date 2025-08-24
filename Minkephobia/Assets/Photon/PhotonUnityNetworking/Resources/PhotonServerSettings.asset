@@ -19,7 +19,7 @@ MonoBehaviour:
     AppIdVoice: 9ae82c98-f8cd-4cc2-b88a-1456f596e18d
     AppVersion: 
     UseNameServer: 1
-    FixedRegion: us
+    FixedRegion: eu
     Server: 
     Port: 0
     ProxyServer: 
@@ -49,6 +49,7 @@ MonoBehaviour:
   - UpdateGlass
   - PlayCollisionSound
   - PlaySound
+  - GetThisFallOutOfHere
   DisableAutoOpenWizard: 1
   ShowSettings: 0
   DevRegionSetOnce: 0
